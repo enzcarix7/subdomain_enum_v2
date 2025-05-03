@@ -37,8 +37,11 @@ You can run multiple operations in a single command:
 
 ### Arguments
 • target: The target domain to scan (e.g., google.com).
+
 • --pathlist: Path to a wordlist for path fuzzing.
+
 • --subdomainpath: Path to a wordlist for subdomain enumeration.
+
 • --crtsh: Enable subdomain enumeration via crt.sh.
 
 ### Disclaimer
