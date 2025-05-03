@@ -3,9 +3,11 @@
 A tool for performing path fuzzing, subdomain enumeration, and subdomain discovery via crt.sh. It is useful for OSINT, penetration testing, and discovering potential vulnerabilities in a network.
 
 ### Features
-	•	Path Fuzzing: Performs path fuzzing on a target domain using a wordlist to identify exposed resources.
-	•	Subdomain Enumeration: Uses a wordlist to discover subdomains of a target domain.
-	•	Subdomains from crt.sh: Retrieves subdomains from crt.sh, a service that collects public SSL/TLS certificates.
+• Path Fuzzing: Performs path fuzzing on a target domain using a wordlist to identify exposed resources.
+
+• Subdomain Enumeration: Uses a wordlist to discover subdomains of a target domain.
+
+• Subdomains from crt.sh: Retrieves subdomains from crt.sh, a service that collects public SSL/TLS certificates.
 
 ### Requirements
 • Python 3.x
