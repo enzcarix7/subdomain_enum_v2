@@ -15,19 +15,19 @@ A tool for performing path fuzzing, subdomain enumeration, and subdomain discove
 
 
 ### How to Use
-	1.	Path Fuzzing
+1. Path Fuzzing
 You can perform path fuzzing on a target domain by specifying a wordlist for the paths:
 ```python script.py target.com --pathlist path_to_wordlist.txt```
 
-	2.	Subdomain Enumeration
+2. Subdomain Enumeration
 You can perform subdomain enumeration using a wordlist for subdomains:
 ```python script.py target.com --subdomainpath subdomain_wordlist.txt```
 
-	3.	Subdomains from crt.sh
+3. Subdomains from crt.sh
 You can retrieve subdomains published via crt.sh:
 ```python script.py target.com --crtsh```
 
-	4.	Combining All Operations
+4. Combining All Operations
 You can run multiple operations in a single command:
 ```python script.py target.com --pathlist path_to_wordlist.txt --subdomainpath subdomain_wordlist.txt --crtsh```
 
