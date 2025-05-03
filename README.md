@@ -12,13 +12,20 @@ A tool for performing path fuzzing, subdomain enumeration, and subdomain discove
 ### Requirements
 • Python 3.x
 
+•	It’s a good practice to upgrade pip before installing the required libraries:
+
+```pip install --upgrade pip```
+ 
+
 • The required libraries can be installed via pip
  
  ```pip install requests```
 
 
 ### How to Use
+
 1. Path Fuzzing
+
 You can perform path fuzzing on a target domain by specifying a wordlist for the paths:
 
 ```python script.py target.com --pathlist path_to_wordlist.txt```
