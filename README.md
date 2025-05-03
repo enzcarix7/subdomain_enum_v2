@@ -17,25 +17,29 @@ A tool for performing path fuzzing, subdomain enumeration, and subdomain discove
 ### How to Use
 1. Path Fuzzing
 You can perform path fuzzing on a target domain by specifying a wordlist for the paths:
-bash```python script.py target.com --pathlist path_to_wordlist.txt```
 
-2. Subdomain Enumeration
+```python script.py target.com --pathlist path_to_wordlist.txt```
+
+3. Subdomain Enumeration
 You can perform subdomain enumeration using a wordlist for subdomains:
+
 ```python script.py target.com --subdomainpath subdomain_wordlist.txt```
 
-3. Subdomains from crt.sh
+4. Subdomains from crt.sh
 You can retrieve subdomains published via crt.sh:
+
 ```python script.py target.com --crtsh```
 
-4. Combining All Operations
+5. Combining All Operations
 You can run multiple operations in a single command:
+
 ```python script.py target.com --pathlist path_to_wordlist.txt --subdomainpath subdomain_wordlist.txt --crtsh```
 
 ### Arguments
-	•	target: The target domain to scan (e.g., google.com).
-	•	--pathlist: Path to a wordlist for path fuzzing.
-	•	--subdomainpath: Path to a wordlist for subdomain enumeration.
-	•	--crtsh: Enable subdomain enumeration via crt.sh.
+• target: The target domain to scan (e.g., google.com).
+• --pathlist: Path to a wordlist for path fuzzing.
+• --subdomainpath: Path to a wordlist for subdomain enumeration.
+• --crtsh: Enable subdomain enumeration via crt.sh.
 
 ### Disclaimer
 This tool is intended for educational purposes and legitimate security testing only. It should only be used on systems and networks you have explicit permission to test. Unauthorized use of this tool on networks or systems without consent may be illegal and can lead to severe legal consequences. Always ensure you have proper authorization before conducting any security testing.
