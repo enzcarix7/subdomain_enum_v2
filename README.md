@@ -8,8 +8,9 @@ A tool for performing path fuzzing, subdomain enumeration, and subdomain discove
 	•	Subdomains from crt.sh: Retrieves subdomains from crt.sh, a service that collects public SSL/TLS certificates.
 
 ### Requirements
-	•Python 3.x
-	•The required libraries can be installed via pip
+• Python 3.x
+
+• The required libraries can be installed via pip
  
  ```pip install requests```
 
@@ -20,17 +21,17 @@ You can perform path fuzzing on a target domain by specifying a wordlist for the
 
 ```python script.py target.com --pathlist path_to_wordlist.txt```
 
-3. Subdomain Enumeration
+2. Subdomain Enumeration
 You can perform subdomain enumeration using a wordlist for subdomains:
 
 ```python script.py target.com --subdomainpath subdomain_wordlist.txt```
 
-4. Subdomains from crt.sh
+3. Subdomains from crt.sh
 You can retrieve subdomains published via crt.sh:
 
 ```python script.py target.com --crtsh```
 
-5. Combining All Operations
+4. Combining All Operations
 You can run multiple operations in a single command:
 
 ```python script.py target.com --pathlist path_to_wordlist.txt --subdomainpath subdomain_wordlist.txt --crtsh```
