@@ -8,9 +8,11 @@ A tool for performing path fuzzing, subdomain enumeration, and subdomain discove
 	•	Subdomains from crt.sh: Retrieves subdomains from crt.sh, a service that collects public SSL/TLS certificates.
 
 ### Requirements
-	•	Python 3.x
-	•	The required libraries can be installed via pip
+	•Python 3.x
+	•The required libraries can be installed via pip
+ 
  ```pip install requests```
+
 
 ### How to Use
 	1.	Path Fuzzing
