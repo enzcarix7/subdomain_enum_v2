@@ -17,7 +17,7 @@ A tool for performing path fuzzing, subdomain enumeration, and subdomain discove
 ### How to Use
 1. Path Fuzzing
 You can perform path fuzzing on a target domain by specifying a wordlist for the paths:
-```python script.py target.com --pathlist path_to_wordlist.txt```
+bash```python script.py target.com --pathlist path_to_wordlist.txt```
 
 2. Subdomain Enumeration
 You can perform subdomain enumeration using a wordlist for subdomains:
